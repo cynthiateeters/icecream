@@ -5,6 +5,13 @@
 body {
   background-color: ivory;
   padding: 1rem;
+  overflow: hidden;
+}
+
+.container {
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
 }
 
 .icecream {
@@ -27,17 +34,19 @@ body {
   font-family: 'Flavors', cursive;
   font-size: 2.5rem;
   position: absolute;
-  top: 200px;
-  left: 120px;
-  width: 10ch;
+  bottom: 40px;
+  right: 20px;
+  width: 200px;
   height: auto;
   padding: 1rem;
   opacity: 0;
+  transform: translateX(110%);
   transition: all 0.3s ease;
 }
 
 .icecream:hover + .hello {
   opacity: 1;
+  transform: translateX(calc(-50vw + 50%));
 }
 
 .glare {
