@@ -41,7 +41,7 @@ body {
   padding: 1rem;
   opacity: 0;
   transform: translateX(110%);
-  transition: all 0.5s 0.2s cubic-bezier(0.17, 0.67, 0.82, 1.2);
+  transition: all 0.5s 0.4s cubic-bezier(0.17, 0.67, 0.82, 1.2);
 }
 
 .icecream:hover + .hello {
@@ -120,7 +120,7 @@ body {
   top: 70px;
   left: 40px;
   transform: scale(1) translateX(0) translateY(0);
-  transition: all 0.5s 0.2s cubic-bezier(0.17, 0.67, 1, 1.35);
+  transition: all 0.5s 0.4s cubic-bezier(0.17, 0.67, 1, 1.35);
 }
 
 .eyebrow-left {
@@ -184,7 +184,7 @@ body {
   top: 90%;
   left: 37%;
   transform: scaleX(1) scaleY(1);
-  transition: all 0.5s 0.2s cubic-bezier(0.17, 0.67, 1, 1.35);
+  transition: all 0.5s 0.4s cubic-bezier(0.17, 0.67, 1, 1.35);
 }
 
 .icecream:hover .mouth {
